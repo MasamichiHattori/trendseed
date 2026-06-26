@@ -1,0 +1,62 @@
+{
+  "identifier" : "9D4C4D87-8A74-4B3A-BE7C-1A0E6F5F0B8A",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "D6A3C7E9-6E27-4F84-8E60-BB04A72ACF5C",
+    "_developerTeamID" : "",
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 0,
+    "_locale" : "ja_JP",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "JPN",
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "7EAA67BA-6F12-4922-95BA-69FA1B469C79",
+      "localizations" : [
+        {
+          "description" : "トレンドseedのプレミアム月額プラン",
+          "displayName" : "プレミアムプラン"
+        }
+      ],
+      "name" : "Premium",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "980",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "F43BD479-284B-4EF6-A893-9A63B48E5D1A",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "分析結果を無制限に閲覧できる月額プラン",
+              "displayName" : "プレミアム 月額"
+            }
+          ],
+          "productID" : "com.trendseed.mobile.premium.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Premium Monthly",
+          "subscriptionGroupID" : "7EAA67BA-6F12-4922-95BA-69FA1B469C79",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

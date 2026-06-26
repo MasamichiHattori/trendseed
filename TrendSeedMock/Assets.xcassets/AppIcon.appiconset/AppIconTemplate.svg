@@ -1,0 +1,31 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="128" y1="96" x2="896" y2="928" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6A4D"/>
+      <stop offset="1" stop-color="#FF2D55"/>
+    </linearGradient>
+    <linearGradient id="card" x1="250" y1="250" x2="790" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.98"/>
+      <stop offset="1" stop-color="#FFF2F5" stop-opacity="0.94"/>
+    </linearGradient>
+    <filter id="shadow" x="168" y="176" width="688" height="688" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="26"/>
+      <feGaussianBlur stdDeviation="26"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.596078 0 0 0 0 0.0705882 0 0 0 0 0.196078 0 0 0 0.18 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#bg)"/>
+  <circle cx="210" cy="214" r="112" fill="white" fill-opacity="0.08"/>
+  <circle cx="862" cy="844" r="164" fill="white" fill-opacity="0.08"/>
+  <g filter="url(#shadow)">
+    <rect x="220" y="228" width="584" height="584" rx="164" fill="url(#card)"/>
+  </g>
+  <path d="M350 622C337 622 324 617 315 608C297 590 297 561 315 543L446 412C464 394 493 394 511 412L567 468L693 342H627C601 342 580 321 580 295C580 269 601 248 627 248H806C832 248 853 269 853 295V474C853 500 832 521 806 521C780 521 759 500 759 474V408L599 568C581 586 552 586 534 568L478 512L381 609C372 618 361 622 350 622Z" fill="#FF375F"/>
+  <path d="M330 706C304 706 283 685 283 659C283 633 304 612 330 612H694C720 612 741 633 741 659C741 685 720 706 694 706H330Z" fill="#FF375F"/>
+  <path d="M719 216L734 255L773 270L734 285L719 324L704 285L665 270L704 255L719 216Z" fill="white"/>
+  <path d="M258 326L267 348L289 357L267 366L258 388L249 366L227 357L249 348L258 326Z" fill="white" fill-opacity="0.78"/>
+</svg>

@@ -1,0 +1,7 @@
+.DS_Store
+Secrets.xcconfig
+TrendSeedMock/RuntimeSecrets.json
+.build/
+.deriveddata/
+*.MP4
+*.xcuserstate
